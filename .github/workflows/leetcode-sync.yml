@@ -2,8 +2,11 @@ name: LeetCode Sync
 
 on:
   schedule:
-    # 03:17 Asia/Kolkata (UTC+5:30), deliberately not on the hour.
-    - cron: '47 21 * * *'
+    # 10:30 PM, 11:00 PM, 11:30 PM, and 11:55 PM Asia/Kolkata.
+    - cron: '0 17 * * *'
+    - cron: '30 17 * * *'
+    - cron: '0 18 * * *'
+    - cron: '25 18 * * *'
   workflow_dispatch:
 
 permissions:
