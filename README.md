@@ -4,10 +4,10 @@ Automated archive of accepted LeetCode submissions for **8SfGddDFNB**.
 
 ## LeetCode Progress
 
-- Easy: **4**
+- Easy: **5**
 - Medium: **2**
 - Hard: **1**
-- Total: **7**
+- Total: **8**
 
 ## Solutions
 
@@ -19,6 +19,7 @@ Automated archive of accepted LeetCode submissions for **8SfGddDFNB**.
 | 4 | Median of Two Sorted Arrays | Hard | Python | 2026-09-01 | [Python](hard/0004-median-of-two-sorted-arrays/python/solution.py) |
 | 9 | Palindrome Number | Easy | Python | 2026-09-02 | [Python](easy/0009-palindrome-number/python/solution.py) |
 | 13 | Roman to Integer | Easy | Python | 2026-09-05 | [Python](easy/0013-roman-to-integer/python/solution.py) |
+| 14 | Longest Common Prefix | Easy | Python | 2026-09-05 | [Python](easy/0014-longest-common-prefix/python/solution.py) |
 | 27 | Remove Element | Easy | Python | 2026-09-02 | [Python](easy/0027-remove-element/python/solution.py) |
 
 ## Automation
