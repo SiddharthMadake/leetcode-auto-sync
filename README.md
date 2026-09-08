@@ -4,10 +4,10 @@ Automated archive of accepted LeetCode submissions for **8SfGddDFNB**.
 
 ## LeetCode Progress
 
-- Easy: **2**
+- Easy: **3**
 - Medium: **2**
 - Hard: **1**
-- Total: **5**
+- Total: **6**
 
 ## Solutions
 
@@ -18,6 +18,7 @@ Automated archive of accepted LeetCode submissions for **8SfGddDFNB**.
 | 3 | Longest Substring Without Repeating Characters | Medium | Python | 2026-09-01 | [Python](medium/0003-longest-substring-without-repeating-characters/python/solution.py) |
 | 4 | Median of Two Sorted Arrays | Hard | Python | 2026-09-01 | [Python](hard/0004-median-of-two-sorted-arrays/python/solution.py) |
 | 9 | Palindrome Number | Easy | Python | 2026-09-02 | [Python](easy/0009-palindrome-number/python/solution.py) |
+| 27 | Remove Element | Easy | Python | 2026-09-02 | [Python](easy/0027-remove-element/python/solution.py) |
 
 ## Automation
 
