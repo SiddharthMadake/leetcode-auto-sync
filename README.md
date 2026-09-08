@@ -4,10 +4,10 @@ Automated archive of accepted LeetCode submissions for **8SfGddDFNB**.
 
 ## LeetCode Progress
 
-- Easy: **5**
+- Easy: **6**
 - Medium: **2**
 - Hard: **1**
-- Total: **8**
+- Total: **9**
 
 ## Solutions
 
@@ -20,6 +20,7 @@ Automated archive of accepted LeetCode submissions for **8SfGddDFNB**.
 | 9 | Palindrome Number | Easy | Python | 2026-09-02 | [Python](easy/0009-palindrome-number/python/solution.py) |
 | 13 | Roman to Integer | Easy | Python | 2026-09-05 | [Python](easy/0013-roman-to-integer/python/solution.py) |
 | 14 | Longest Common Prefix | Easy | Python | 2026-09-05 | [Python](easy/0014-longest-common-prefix/python/solution.py) |
+| 20 | Valid Parentheses | Easy | Python | 2026-09-07 | [Python](easy/0020-valid-parentheses/python/solution.py) |
 | 27 | Remove Element | Easy | Python | 2026-09-02 | [Python](easy/0027-remove-element/python/solution.py) |
 
 ## Automation
