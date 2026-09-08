@@ -5,15 +5,16 @@ Automated archive of accepted LeetCode submissions for **8SfGddDFNB**.
 ## LeetCode Progress
 
 - Easy: **1**
-- Medium: **0**
+- Medium: **1**
 - Hard: **0**
-- Total: **1**
+- Total: **2**
 
 ## Solutions
 
 | # | Problem | Difficulty | Language | Date | Solution |
 |---:|---|---|---|---|---|
 | 1 | Two Sum | Easy | Python | 2026-03-02 | [Python](easy/0001-two-sum/python/solution.py) |
+| 2 | Add Two Numbers | Medium | Python | 2026-09-01 | [Python](medium/0002-add-two-numbers/python/solution.py) |
 
 ## Automation
 
