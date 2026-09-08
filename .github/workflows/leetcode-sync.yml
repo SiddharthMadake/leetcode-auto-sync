@@ -1,0 +1,50 @@
+name: LeetCode Sync
+
+on:
+  schedule:
+    # 03:17 Asia/Kolkata (UTC+5:30), deliberately not on the hour.
+    - cron: '47 21 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: leetcode-sync-main
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      LEETCODE_USERNAME: ${{ secrets.LEETCODE_USERNAME }}
+      LEETCODE_SESSION: ${{ secrets.LEETCODE_SESSION }}
+      LEETCODE_CSRF_TOKEN: ${{ secrets.LEETCODE_CSRF_TOKEN }}
+      GITHUB_REPOSITORY: ${{ github.repository }}
+      DEFAULT_BRANCH: main
+      SYNC_LOOKBACK_LIMIT: 100
+      HTTP_TIMEOUT_SECONDS: 30
+      HTTP_MAX_RETRIES: 4
+      REPO_ROOT: .
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements-dev.txt
+
+      - name: Run tests
+        run: python -m pytest
+
+      - name: Sync accepted LeetCode submissions
+        run: python sync.py

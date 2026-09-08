@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leetcode-github-sync"
+version = "1.0.0"
+description = "Sync accepted LeetCode submissions into a GitHub repository."
+requires-python = ">=3.11"
+dependencies = [
+  "requests>=2.32,<3",
+  "python-dotenv>=1.0,<2",
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest>=8,<9",
+]
+
+[project.scripts]
+leetcode-sync = "leetcode_sync.cli:main"
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+include = ["leetcode_sync*"]
