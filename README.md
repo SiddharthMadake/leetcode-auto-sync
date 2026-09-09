@@ -4,10 +4,10 @@ Automated archive of accepted LeetCode submissions for **8SfGddDFNB**.
 
 ## LeetCode Progress
 
-- Easy: **7**
+- Easy: **8**
 - Medium: **2**
 - Hard: **1**
-- Total: **10**
+- Total: **11**
 
 ## Solutions
 
@@ -23,6 +23,7 @@ Automated archive of accepted LeetCode submissions for **8SfGddDFNB**.
 | 20 | Valid Parentheses | Easy | Python | 2026-09-07 | [Python](easy/0020-valid-parentheses/python/solution.py) |
 | 26 | Remove Duplicates from Sorted Array | Easy | Python | 2026-09-08 | [Python](easy/0026-remove-duplicates-from-sorted-array/python/solution.py) |
 | 27 | Remove Element | Easy | Python | 2026-09-02 | [Python](easy/0027-remove-element/python/solution.py) |
+| 58 | Length of Last Word | Easy | Python | 2026-09-08 | [Python](easy/0058-length-of-last-word/python/solution.py) |
 
 ## Automation
 
