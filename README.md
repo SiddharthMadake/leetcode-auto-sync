@@ -4,10 +4,10 @@ Automated archive of accepted LeetCode submissions for **8SfGddDFNB**.
 
 ## LeetCode Progress
 
-- Easy: **11**
+- Easy: **12**
 - Medium: **2**
 - Hard: **1**
-- Total: **14**
+- Total: **15**
 
 ## Solutions
 
@@ -27,6 +27,7 @@ Automated archive of accepted LeetCode submissions for **8SfGddDFNB**.
 | 35 | Search Insert Position | Easy | Python | 2026-09-11 | [Python](easy/0035-search-insert-position/python/solution.py) |
 | 58 | Length of Last Word | Easy | Python | 2026-09-08 | [Python](easy/0058-length-of-last-word/python/solution.py) |
 | 66 | Plus One | Easy | Python | 2026-09-11 | [Python](easy/0066-plus-one/python/solution.py) |
+| 88 | Merge Sorted Array | Easy | Python | 2026-09-11 | [Python](easy/0088-merge-sorted-array/python/solution.py) |
 
 ## Automation
 
