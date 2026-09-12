@@ -4,10 +4,10 @@ Automated archive of accepted LeetCode submissions for **8SfGddDFNB**.
 
 ## LeetCode Progress
 
-- Easy: **13**
+- Easy: **14**
 - Medium: **2**
 - Hard: **1**
-- Total: **16**
+- Total: **17**
 
 ## Solutions
 
@@ -29,6 +29,7 @@ Automated archive of accepted LeetCode submissions for **8SfGddDFNB**.
 | 66 | Plus One | Easy | Python | 2026-09-11 | [Python](easy/0066-plus-one/python/solution.py) |
 | 67 | Add Binary | Easy | Python | 2026-09-12 | [Python](easy/0067-add-binary/python/solution.py) |
 | 88 | Merge Sorted Array | Easy | Python | 2026-09-11 | [Python](easy/0088-merge-sorted-array/python/solution.py) |
+| 94 | Binary Tree Inorder Traversal | Easy | Python | 2026-09-12 | [Python](easy/0094-binary-tree-inorder-traversal/python/solution.py) |
 
 ## Automation
 
